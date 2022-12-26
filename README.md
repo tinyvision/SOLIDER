@@ -35,7 +35,7 @@ python demo.py
 ## Models
 | Backbone | Swin Base | Swin Small | Swin Tiny |
 | ------ |:---: | :---: | :---: |
-| | [Link](https://idstcv.oss-cn-zhangjiakou.aliyuncs.com/SOLIDER/swin_base.pth) | [Link](https://idstcv.oss-cn-zhangjiakou.aliyuncs.com/SOLIDER/swin_small.pth) | [Link](https://idstcv.oss-cn-zhangjiakou.aliyuncs.com/SOLIDER/swin_tiny.pth) |  
+| | [Link](https://drive.google.com/file/d/1uh7tO34tMf73MJfFqyFEGx42UBktTbZU/view?usp=share_link) | [Link](https://drive.google.com/file/d/1oyEgASqDHc7YUPsQUMxuo2kBZyi2Tzfv/view?usp=share_link) | [Link](https://drive.google.com/file/d/12UyPVFmjoMVpQLHN07tNh4liHUmyDqg8/view?usp=share_link) |  
 
 - All the models are trained on the whole LUPerson dataset.
 
