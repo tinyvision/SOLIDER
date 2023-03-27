@@ -48,6 +48,8 @@ Our implementation is mainly based on the following codebases. We gratefully tha
 - [facebookresearch/dino](https://github.com/facebookresearch/dino).
 
 ## Reference
+If you use SOLIDER in your research, please cite our work by using the following BibTeX entry:
+```
 @inproceedings{chen2023beyond,
   title={Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks},
   author={Weihua Chen and Xianzhe Xu and Jian Jia and Hao Luo and Yaohua Wang and Fan Wang and Rong Jin and Xiuyu Sun},
