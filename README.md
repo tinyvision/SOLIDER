@@ -1,12 +1,12 @@
 <div align="center"><img src="assets/logo.png" width="900"></div>
 
-Welcome to SOLIDER! SOLIDER is a Semantic Controllable Self-Supervised Learning Framework to learn general human representations from massive unlabeled human images which can benefit downstream human-centric tasks to the maximum extent. Unlike the existing self-supervised learning methods, prior knowledge from human images is utilized in SOLIDER to build pseudo semantic labels and import more semantic information into the learned representation. Meanwhile, we note that different downstream tasks always require different ratios of semantic information and appearance information. For example, human parsing requires more semantic information, while person re-identification needs more appearance information for identification purpose. So a single learned representation cannot fit for all requirements. To solve this problem, SOLIDER introduces a conditional network with a semantic controller. After the model is trained, users can send values to the controller to produce representations with different ratios of semantic information, which can fit different needs of downstream tasks. Finally, SOLIDER is verified on six downstream human-centric visual tasks. It outperforms state of the arts and builds new baselines for these tasks. For more details, please refer to [Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks](xxx).
+Welcome to **SOLIDER**! SOLIDER is a Semantic Controllable Self-Supervised Learning Framework to learn general human representations from massive unlabeled human images which can benefit downstream human-centric tasks to the maximum extent. Unlike the existing self-supervised learning methods, prior knowledge from human images is utilized in SOLIDER to build pseudo semantic labels and import more semantic information into the learned representation. Meanwhile, different downstream tasks always require different ratios of semantic information and appearance information, and a single learned representation cannot fit for all requirements. To solve this problem, SOLIDER introduces a conditional network with a semantic controller, which can fit different needs of downstream tasks. For more details, please refer to our paper [Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks](xxx).
 
 <div align="center"><img src="assets/framework.png" width="900"></div>
 
 ## Updates
 - **[2023/03/13: SOLIDER is accepted by CVPR2023!] ![new](https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png)**
-    * The SOLIDER is accepted by CVPR2023, and the offical pytorch implementation is released in this repo. 
+    * The paper of SOLIDER is accepted by CVPR2023, and its offical pytorch implementation is released in this repo. 
 
 ## Installation
 This codebase has been developed with python version 3.7, PyTorch version 1.7.1, CUDA 10.1 and torchvision 0.8.2.                                           
@@ -39,11 +39,18 @@ python demo.py
 
 - All the models are trained on the whole LUPerson dataset.
 
-## Updates
+## Results on Downstream Tasks
 - The training codes of downstream tasks will be released soon.
 
-## Knowledgement
+## Acknowledgement
 Our implementation is mainly based on the following codebases. We gratefully thank the authors for their wonderful works.
 - [damo-cv/TransReID-SSL](https://github.com/damo-cv/TransReID-SSL)
 - [facebookresearch/dino](https://github.com/facebookresearch/dino).
 
+## Reference
+@inproceedings{chen2023beyond,
+  title={Beyond Appearance: a Semantic Controllable Self-Supervised Learning Framework for Human-Centric Visual Tasks},
+  author={Weihua Chen and Xianzhe Xu and Jian Jia and Hao Luo and Yaohua Wang and Fan Wang and Rong Jin and Xiuyu Sun},
+  booktitle={The IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2023},
+}
