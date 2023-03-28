@@ -55,7 +55,7 @@ Our implementation is mainly based on the following codebases. We gratefully tha
 - [TransReID](https://github.com/damo-cv/TransReID)
 - [TransReID-SSL](https://github.com/damo-cv/TransReID-SSL)
 - [SeqNet](https://github.com/serend1p1ty/SeqNet)
-= [Pedestron](https://github.com/hasanirtiza/Pedestron)
+- [Pedestron](https://github.com/hasanirtiza/Pedestron)
 
 ## Reference
 If you use SOLIDER in your research, please cite our work by using the following BibTeX entry:
