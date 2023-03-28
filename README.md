@@ -5,7 +5,9 @@ Welcome to **SOLIDER**! SOLIDER is a Semantic Controllable Self-Supervised Learn
 <div align="center"><img src="assets/framework.png" width="900"></div>
 
 ## Updates
-- **[2023/03/13: SOLIDER is accepted by CVPR2023!] ![new](https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png)**
+- **[2023/03/28: Codes of 3 downstream tasks are released!] ![new](https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png)**
+    * Training details of our pretrained model on 3 downstream human visual tasks, including person re-identification, person search and pedestrian detection, are released.
+- **[2023/03/13: SOLIDER is accepted by CVPR2023!]**
     * The paper of SOLIDER is accepted by CVPR2023, and its offical pytorch implementation is released in this repo. 
 
 ## Installation
@@ -39,13 +41,21 @@ python demo.py
 
 - All the models are trained on the whole LUPerson dataset.
 
-## Results on Downstream Tasks
-- The training codes of downstream tasks will be released soon.
+## Codes on Downstream Tasks
+- [Person Re-identification](https://github.com/tinyvision/SOLIDER-REID)
+- [Person Search](https://github.com/tinyvision/SOLIDER-PersonSearch)
+- [Pedestrian Detection](https://github.com/tinyvision/SOLIDER-PedestrianDetection)
+- Human Attributes
+- Human Parsing
+- Pose Estimation
 
 ## Acknowledgement
 Our implementation is mainly based on the following codebases. We gratefully thank the authors for their wonderful works.
-- [damo-cv/TransReID-SSL](https://github.com/damo-cv/TransReID-SSL)
-- [facebookresearch/dino](https://github.com/facebookresearch/dino).
+- [DINO](https://github.com/facebookresearch/dino)
+- [TransReID](https://github.com/damo-cv/TransReID)
+- [TransReID-SSL](https://github.com/damo-cv/TransReID-SSL)
+- [SeqNet](https://github.com/serend1p1ty/SeqNet)
+= [Pedestron](https://github.com/hasanirtiza/Pedestron)
 
 ## Reference
 If you use SOLIDER in your research, please cite our work by using the following BibTeX entry:
