@@ -45,6 +45,7 @@ python demo.py
 ```
 
 ## Models
+We use [Swin-Transformer](https://github.com/microsoft/Swin-Transformer) as our backbone, which shows great advantages on many CV tasks.
 | Task | Dataset | Swin Tiny<br>([Link](https://drive.google.com/file/d/12UyPVFmjoMVpQLHN07tNh4liHUmyDqg8/view?usp=share_link)) | Swin Small<br>([Link](https://drive.google.com/file/d/1oyEgASqDHc7YUPsQUMxuo2kBZyi2Tzfv/view?usp=share_link)) | Swin Base<br>([Link](https://drive.google.com/file/d/1uh7tO34tMf73MJfFqyFEGx42UBktTbZU/view?usp=share_link)) |
 | :---: |:---: |:---: | :---: | :---: |
 | Person Re-identification (mAP/R1)<br>w/o re-ranking | Market1501 | 91.6/96.1 | 93.3/96.6 | 93.9/96.9 |
@@ -72,6 +73,7 @@ python demo.py
 
 ## Acknowledgement
 Our implementation is mainly based on the following codebases. We gratefully thank the authors for their wonderful works.
+- [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)
 - [DINO](https://github.com/facebookresearch/dino)
 - [TransReID](https://github.com/damo-cv/TransReID)
 - [TransReID-SSL](https://github.com/damo-cv/TransReID-SSL)
