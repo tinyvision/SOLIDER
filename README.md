@@ -24,7 +24,7 @@ Welcome to **SOLIDER**! SOLIDER is a Semantic Controllable Self-Supervised Learn
 This codebase has been developed with python version 3.7, PyTorch version 1.7.1, CUDA 10.1 and torchvision 0.8.2.                                           
 
 ## Datasets
-We use **LUPerson** as our training data, which consists of unlabeled human images. Download **LUPerson** from its [offical link](https://github.com/DengpanFu/LUPerson-NL/tree/main/LUP-NL) and unzip it.
+We use **LUPerson** as our training data, which consists of unlabeled human images. Download **LUPerson** from its [offical link](https://github.com/DengpanFu/LUPerson) and unzip it.
 
 ## Training
 - Choice 1. To train SOLIDER from scratch, please run:
@@ -79,7 +79,7 @@ Our implementation is mainly based on the following codebases. We gratefully tha
 - [TransReID-SSL](https://github.com/damo-cv/TransReID-SSL)
 - [SeqNet](https://github.com/serend1p1ty/SeqNet)
 - [Pedestron](https://github.com/hasanirtiza/Pedestron)
-- [LUPerson](https://github.com/DengpanFu/LUPerson-NL/tree/main/LUP-NL)
+- [LUPerson](https://github.com/DengpanFu/LUPerson)
 
 ## Reference
 If you use SOLIDER in your research, please cite our work by using the following BibTeX entry:
