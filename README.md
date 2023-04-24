@@ -15,7 +15,9 @@ Welcome to **SOLIDER**! SOLIDER is a Semantic Controllable Self-Supervised Learn
 <div align="center"><img src="assets/framework.png" width="900"></div>
 
 ## Updates
-- **[2023/03/28: Codes of 3 downstream tasks are released!] ![new](https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png)**
+- **[2023/04/24: Codes of attribute recognition task is released!] ![new](https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png)**
+    * Training details of our pretrained model on downstream person attribute recognition task is released.
+- **[2023/03/28: Codes of 3 downstream tasks are released!]**
     * Training details of our pretrained model on 3 downstream human visual tasks, including person re-identification, person search and pedestrian detection, are released.
 - **[2023/03/13: SOLIDER is accepted by CVPR2023!]**
     * The paper of SOLIDER is accepted by CVPR2023, and its offical pytorch implementation is released in this repo. 
@@ -67,7 +69,7 @@ We use [Swin-Transformer](https://github.com/microsoft/Swin-Transformer) as our 
 - [Person Re-identification](https://github.com/tinyvision/SOLIDER-REID)
 - [Person Search](https://github.com/tinyvision/SOLIDER-PersonSearch)
 - [Pedestrian Detection](https://github.com/tinyvision/SOLIDER-PedestrianDetection)
-- Human Attributes
+- [Person Attribute Recognition](https://github.com/cwhgn/SOLIDER-PersonAttributeRecognition)
 - Human Parsing
 - Pose Estimation
 
