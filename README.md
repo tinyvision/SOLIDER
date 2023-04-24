@@ -53,7 +53,7 @@ We use [Swin-Transformer](https://github.com/microsoft/Swin-Transformer) as our 
 | Person Re-identification (mAP/R1)<br>with re-ranking | Market1501 | 95.3/96.6 | 95.4/96.4 | 95.6/96.7 |
 |  | MSMT17 | 81.5/89.2 | 86.5/91.7 | 86.5/91.7 |
 | Attribute Recognition (mA) | PETA_ZS | 74.37 | 76.21 | 76.43 |
-|  | RAP_ZS | 74.23 | 76.84 | 77.06 |
+|  | RAP_ZS | 74.23 | 75.95 | 76.42 |
 |  | PA100K | 84.14 | 86.25 | 86.37 |
 | Person Search (mAP/R1) | CUHK-SYSU | 94.9/95.7 | 95.5/95.8 | 94.9/95.5 |
 |  | PRW | 56.8/86.8 | 59.8/86.7 | 59.7/86.8 |
