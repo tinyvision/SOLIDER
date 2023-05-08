@@ -70,7 +70,7 @@ We use [Swin-Transformer](https://github.com/microsoft/Swin-Transformer) as our 
 - [Person Search](https://github.com/tinyvision/SOLIDER-PersonSearch)
 - [Pedestrian Detection](https://github.com/tinyvision/SOLIDER-PedestrianDetection)
 - [Person Attribute Recognition](https://github.com/tinyvision/SOLIDER-PersonAttributeRecognition)
-- Human Parsing
+- [Human Parsing](https://github.com/tinyvision/SOLIDER-HumanParsing)
 - Pose Estimation
 
 ## Acknowledgement
