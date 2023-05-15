@@ -15,6 +15,8 @@ Welcome to **SOLIDER**! SOLIDER is a Semantic Controllable Self-Supervised Learn
 <div align="center"><img src="assets/framework.png" width="900"></div>
 
 ## Updates
+- **[2023/05/15: Codes of human parsing task is released!] ![new](https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png)**
+    * Training details of our pretrained model on downstream human parsing task is released.
 - **[2023/04/24: Codes of attribute recognition task is released!] ![new](https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png)**
     * Training details of our pretrained model on downstream person attribute recognition task is released.
 - **[2023/03/28: Codes of 3 downstream tasks are released!]**
@@ -82,6 +84,7 @@ Our implementation is mainly based on the following codebases. We gratefully tha
 - [SeqNet](https://github.com/serend1p1ty/SeqNet)
 - [Pedestron](https://github.com/hasanirtiza/Pedestron)
 - [LUPerson](https://github.com/DengpanFu/LUPerson)
+- [SCHP](https://github.com/GoGoDuck912/Self-Correction-Human-Parsing)
 
 ## Reference
 If you use SOLIDER in your research, please cite our work by using the following BibTeX entry:
