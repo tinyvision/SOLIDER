@@ -15,6 +15,8 @@ Welcome to **SOLIDER**! SOLIDER is a Semantic Controllable Self-Supervised Learn
 <div align="center"><img src="assets/framework.png" width="900"></div>
 
 ## Updates
+- **[2023/07/21: Codes of human pose task is released!] ![new](https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png)**
+    * Training details of our pretrained model on downstream human pose task is released.
 - **[2023/05/15: Codes of human parsing task is released!] ![new](https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png)**
     * Training details of our pretrained model on downstream human parsing task is released.
 - **[2023/04/24: Codes of attribute recognition task is released!] ![new](https://img.alicdn.com/imgextra/i4/O1CN01kUiDtl1HVxN6G56vN_!!6000000000764-2-tps-43-19.png)**
@@ -73,7 +75,7 @@ We use [Swin-Transformer](https://github.com/microsoft/Swin-Transformer) as our 
 - [Pedestrian Detection](https://github.com/tinyvision/SOLIDER-PedestrianDetection)
 - [Person Attribute Recognition](https://github.com/tinyvision/SOLIDER-PersonAttributeRecognition)
 - [Human Parsing](https://github.com/tinyvision/SOLIDER-HumanParsing)
-- Pose Estimation
+- [Pose Estimation](https://github.com/tinyvision/SOLIDER-HumanPose)
 
 ## Acknowledgement
 Our implementation is mainly based on the following codebases. We gratefully thank the authors for their wonderful works.
@@ -85,6 +87,7 @@ Our implementation is mainly based on the following codebases. We gratefully tha
 - [Pedestron](https://github.com/hasanirtiza/Pedestron)
 - [LUPerson](https://github.com/DengpanFu/LUPerson)
 - [SCHP](https://github.com/GoGoDuck912/Self-Correction-Human-Parsing)
+- [mmpose](https://github.com/open-mmlab/mmpose)
 
 ## Reference
 If you use SOLIDER in your research, please cite our work by using the following BibTeX entry:
